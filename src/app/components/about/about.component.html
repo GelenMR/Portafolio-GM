@@ -1,16 +1,26 @@
 <div class="nav-container">
     <app-navbar></app-navbar>
 </div>
-<div class="container">
+<section class="container">
+    <div>
+        <h2 class="title-background-white">Sobre Mí</h2>
+        <div class="line-one"></div>
+    </div>
     <div class="row">
-        <div>
-            <h1>Sobre Mi!</h1>
-        </div>
-        <div class="col-md-6 mt-5">
+        <div class="col-md-6">
             <div class="text-justify bg-white fluid">
-                <h6>"Si no te esfuerzas hasta el máximo, <br><i>¿cómo sabrás donde está tu límite?".</i></h6>
+                <h5><i>"He descubierto en el
+                  Desarrollo Web una pasión,
+                  que me permite crear,
+                  aportar y aprender, que son
+                  mis mayores intereses"</i></h5>
             </div>
-            <div class="row">
+            <div class="text-center">
+                <a routerLink="/projects" routerLinkActive="active">
+                    <img width="300" alt="Foto-gelen" src="../../../assets/img/foto-gelenm.png" />
+                </a>
+            </div>
+            <!-- <div class="row">
                 <div class="text-center mt-3">
                     <a routerLink="/projects" routerLinkActive="active">
                         <img width="300" alt="Logo-gelen" src="../../../assets/img/DEVELOPER.png" />
@@ -19,15 +29,18 @@
                         <img alt="flecha-siguiente" src="../../../assets/img/arrow.png" />
                     </a>
                 </div>
-            </div>
+            </div> -->
         </div>
-        <div class="col-md-6 mt-2">
+        <div class="col-md-6 mt-3">
             <div class="text-justify">
-                <!-- <h3><i>{{ title }}!</i></h3> -->
-                <a routerLink="/projects" routerLinkActive="active">
-                    <img width="300" alt="Foto-gelen" src="../../../assets/img/portafolio1.jpeg" />
-                </a>
+                <p><b> Soy una Desarrolladora Front-End,</b> responsable, comprometida, comunicativa y dispuesta. Me gusta trabajar en equipo, lo cual, es siempre una instancia de aprendizaje y una oportunidad de compartir conocimientos.
+                </p>
+
+                <p>Tengo experiencia en docencia y formación; para mí, ser un puente entre las personas y el aprendizaje es una experiencia enriquecedora y motivadora.</p>
+                <!-- <a routerLink="/projects" routerLinkActive="active">
+                    <img width="300" alt="Foto-gelen" src="../../../assets/img/foto-gelenm.png" />
+                </a> -->
             </div>
         </div>
     </div>
-</div>
+</section>
