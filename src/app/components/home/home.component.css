@@ -1,0 +1,34 @@
+/* .container {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    text-align: center;
+    background-color: #474747;
+} */
+
+.img {
+    vertical-align: middle;
+}
+
+.img-fluid {
+    max-width: 85%;
+}
+
+.container-overview {
+    background: #474747;
+    min-height: 100vh;
+    max-height: 500vh;
+    padding-top: 10%;
+}
+
+.fa-angle-right {
+    font-size: 30px;
+    margin-top: 40px;
+    color: rgba(255, 255, 255, .5);
+    transition: 750ms ease-in;
+}
+
+.fa-angle-right:hover {
+    color: rgba(0, 0, 0, .9);
+}

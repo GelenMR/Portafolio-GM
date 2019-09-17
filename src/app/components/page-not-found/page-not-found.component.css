@@ -1,0 +1,9 @@
+.content {
+    margin: 0px auto;
+    text-align: center;
+    background-color: white !important;
+}
+
+.content a img {
+    vertical-align: middle;
+}

@@ -1,3 +1,8 @@
 .navbar {
-  background-color: rgb(71,71,71) !important;
+    background-color: rgb(71, 71, 71) !important;
+}
+
+.nav-link:focus {
+    color: rgba(47, 47, 47, 5) !important;
+    /* font-weight: 700; */
 }
