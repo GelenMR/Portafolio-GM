@@ -1,3 +1,50 @@
 .container {
     margin-top: 80px;
 }
+
+
+/*PROJECTS*/
+
+#projects {
+    display: block;
+}
+
+.card {
+    width: 32%!important;
+    margin-right: 10px;
+}
+
+.card-image img {
+    width: 100% !important;
+    height: 300px;
+}
+
+.card-action a {
+    color: #D81159 !important;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-reveal {
+    background-color: #0496ff !important;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-reveal span {
+    margin-bottom: 10px;
+}
+
+.card-title {
+    font-weight: bold!important;
+}
+
+.card-reveal p {
+    margin-top: 10px;
+}
+
+.card-title {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
